@@ -1,21 +1,21 @@
-# Spring–Piston Thermal Model
+# Spring-Piston Thermal Model
 
-This project models the transient thermal response of a spring-piston-cylinder system with **prescribed volume dynamics**.
+This project models the transient thermal response of a spring–piston–cylinder system with **prescribed volume dynamics**.
 
 ## Overview
-- Volume is prescribed as a function of time
+- Gas volume prescribed as a function of time
 - Ideal gas assumption
-- Energy balance solved numerically in Python
-- Temperature evolution analyzed for different parameters
+- Adiabatic energy balance
+- Temperature response analyzed numerically
 
 ## Methods
 - Governing equation derived from the first law of thermodynamics
 - Volume function and its time derivative are prescribed
-- Time integration performed using explicit numerical methods
+- Ordinary differential equation solved using explicit numerical integration (RK4)
 
 ## Files
-- `Thermal Modeling of a Spring-Piston-Cylinder System with Prescribed Volume Dynamics.ipynb`  
-  Main notebook containing derivation, implementation, and results.
+- `spring_piston_thermal_model.ipynb`  
+  Jupyter notebook containing the derivation, implementation, parametric studies, and results.
 
 ## Tools
 - Python
