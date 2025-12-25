@@ -1,6 +1,6 @@
 # Spring-Piston Thermal Model
 
-This project models the transient thermal response of a spring–piston–cylinder system with prescribed volume dynamics.
+This project models the transient thermal response of a spring-piston-cylinder system with prescribed volume dynamics.
 
 ## Overview
 - Gas volume prescribed as a function of time
